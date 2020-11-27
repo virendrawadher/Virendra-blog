@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;500&display=swap');
+
+body{
+    font-family: 'Roboto Slab', serif;
+}
+
+hr{
+    /* height: px; */
+    border-top: 2px solid;
+}
+
+span{
+    color: grey;
+}
+
+.nav-div{
+    max-width: 70%;
+    margin: auto;
+}
+
+.navigation .brand {
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.navigation ul{
+    list-style: none;
+    text-align: right;
+}
+
+.navigation li{
+    display: inline-block;
+    padding: 0 1rem;
+
+}
+
+.navigation a{
+    text-decoration: none;
+    color: var(--background);
+}
+
+.navigation .active{
+    font-weight: bold;
+    border-bottom: 0.1rem solid;
+}
+
+.headings {
+    max-width: 60%;
+    margin: auto;
+}
+
+.headings h1{
+    font-size: 40px;
+}
+
+.headings .user-image{
+    width: 40px;
+    height: 40px;
+    border-radius: 2rem;
+}
+
+.headings .name-para{
+    display: inline;
+    
+}
+
+.headings .image{
+    padding-top: 1rem;
+    width: 100%;
+    height: 100%;
+}
+
+.headings li{
+    padding-bottom: 1rem;
+}
+
+.footer{
+    max-width: 70%;
+    margin: auto;
+}
+
+.footer .heading{
+    font-weight: bold;
+    font-size: larger;
+    padding-bottom: 1rem;
+    text-align: center;
+}
+
+.footer ul {
+    padding-inline-start: 0px;
+    text-align: center;
+}
+
+.footer li{
+    display: inline;
+    padding: 0 1rem;
+}
+
+.footer a{
+    text-decoration: none;
+    color: black;
+}
+
+.footer a:hover{
+    border-bottom: 2px solid;
+}

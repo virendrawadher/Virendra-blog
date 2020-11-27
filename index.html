@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Whatsapp Mechanism</title>
+    <link rel="shortcut icon" href="images/whatsapps.ico">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="nav-div">
+        <nav class=navigation>
+            <div class="container-fluid">
+                <div class="brand">Virendra Wadher</div>
+                <ul>
+                    <li>
+                        <a href="" class="active">Home</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+    <hr>
+    <div class="headings">
+        <h1>Whatsapp Mechanism</h1>
+        <img src="images/virendra.jpg" alt="Virendra Wadher" class="user-image">
+        <p class="name-para">Virendra Wadher,<span> Nov 27. 10 min read</span></p>
+        <br>
+        <p>
+            In this tutorial, we are discussing about real time messaging app. They are essential part of our day to day life. But have you thought how this application work. We are going to discuss about one of real time messaging application <strong>Whatsapp</strong>. 
+        </p>
+        <img src="images/whatsappimg.jpg" alt="Whatsapp" class="image">
+
+        <p>
+           Before diving into mechanism of whatsapp,let's understand 'How communication works ?'  
+        </p>
+        <img src="images/internet.png" alt="Working of Internet." class="image">
+
+        <p>
+            If two clients(Computer 1 and Computer 2 ) want to communicate or send messages to each other, first address of each computer shouls been known to each other(It may be IP, MAC, or any customized uniques identity) and messages are exchange with each other over a network, in this case it is <strong>INTERNET</strong>.
+        </p>
+        <strong>But, what if number of clients are in millons and billons and network is very large?</strong>
+        <p>
+            It becomes difficult to know the address of each and every client in a very large network, In this case we need componet between the clients called "SERVER" to make system more robust and highly available. The role of server is to coordinate between all the clients connected to it.
+        </p>
+        <img src="images/server.png" alt="Server" class="image">
+
+        <p>
+            Now all clients makes connections with server instead of each other.
+            <br>
+            When client 1 want to send data to client 3, it first send data to server and server knows the address of client 3, then it forward data to client 3 and vice versa.  
+        </p>
+        <p>
+            The special features about Whatsapp are,
+            <ul>
+                <li><strong><em>Text messaging</em></strong></li>
+                <li><strong><em>Sent + Delivered + Read </em></strong></li>
+            </ul>
+        </p>
+            <h2>Text messaging</h2>
+            <strong>How does one person send message to another person?</strong> it is <strong> one to one chat</strong>. You connect to <strong>WhatsApp</strong> on the cloud via Gateway. External protocol is used when you are taking to Whatsapp. You do not need big headers that HTTP provides you when you're talking internally. Gateway taking care of all these activities.
+            <br>
+            Once you(client 1) connect to the Gateway, let's assume you sending a message to client 2. The Gateway sends the message that you already send to client 2.
+        </p>
+        <p>
+            <h2>Sent + Delivered + Read</h2>
+            <img src="images/seen.jpg" alt="seen+ delivered + read" class="image">
+            <ul>
+                <li>
+                    <strong>Sent: </strong>Whatsapp server receive the message when we send a message.
+                </li>
+                <li>
+                    <strong>Delivered: </strong>Message is delivered to the receiver from the whatsapp server.
+                </li>
+                <li>
+                    <strong>Seen: </strong> Messages is seen or opened by the receiver.
+                </li>
+            </ul>
+      
+            <em>All status changes, of every message has unique ID to identify each message and acknowledgement from the various event.</em> 
+        </p>
+        <p>Thanks for reading !!</p>
+    </div>
+
+    <hr>
+
+    <footer class="footer">
+        <div>
+            <div class="heading">Connect with me</div>
+            <ul>
+                <li><a href="https://www.twitter.com/virendra_wadher" target="_blank">Twitter</a></li>
+                <li><a href="https://www.linkedin.com/in/virendra-wadher-042741155/" target="_blank">LinkedIn </a></li>
+                <li><a href="https://www.github.com/virendrawadher" target="_blank">GitHub</a></li>
+            </ul>
+        </div>
+    </footer>
+    
+</body>
+</html>
